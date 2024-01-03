@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mobile first</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: whitesmoke;
+}
+header{
+    background-image: url(afbeeldingen/shutterstock-1590682360.jpg);
+    height: 200px;
+    width: auto;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+@media only screen and (min-width: 786px) {
+    [class*="col-"] {
+float: left;
+padding: 10px;
+    }
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.col-2{
+    background-color: black;
+    color: whitesmoke;
+}
+.col-9{
+    background-color: blueviolet;
+    color: whitesmoke;
+}
+#footer{
+    background-color: cyan;
+    height: 200px;
+}
+img{
+    float: right;
+height: 30%;
+width: 30%;}
+        </style>
+    </head>
+    <div class="col-12"></div><header>
+        <h1>ALMERE</h1>
+    </header>
+    <body>
+        <div class="row">
+<div class="col-2">
+<ul>
+<li>Het eerste huis werd in 1976 opgeleverd.</li>
+<li>Almere heeft wel 800 bruggen! Dat is twee keer zoveel als Venetië. </li>
+<li>Ons verkeer heeft ieder een aparte baan! Auto's, bussen en fietsers hebben een eigen rijbaan.</li>
+<li>We leven onder 2 tot 5 meter onder het zeeniveau.</li>
+<li>Onze kustlijn is 42 kilometer lang!</li>
+</ul>
+</div>
+<div class="col-9">
+       <div> <p><img src="afbeeldingen/shutterstock-1590682360.jpg">Almere, gelegen in de provincie Flevoland, is een stad die bekend staat om haar moderniteit en innovatie. Oorspronkelijk ontstaan als een polderstad in de jaren zeventig, heeft Almere zich ontwikkeld tot een levendige en snelgroeiende gemeenschap. Met zijn opvallende architectuur, ruime opzet en talloze groene gebieden, biedt Almere een unieke leefomgeving. De stad trekt niet alleen nieuwe inwoners aan, maar ook ondernemers en kunstenaars die worden aangetrokken door de mogelijkheden die deze dynamische stad te bieden heeft. Almere weerspiegelt een balans tussen stedelijk comfort en natuurlijke schoonheid, waardoor het een aantrekkelijke bestemming is voor mensen die op zoek zijn naar een eigentijdse levensstijl.
+        </p>
+    </div>
+    <div><p>Almere, ook wel bekend als de 'jongste stad van Nederland', is een ware pionier op het gebied van stadsontwikkeling. Als onderdeel van de Zuiderzeewerken werd deze stad opgebouwd op voormalige Zuiderzeebodem en groeide snel uit tot een diverse en moderne samenleving. Met een mix van architectonische stijlen, van strakke moderne gebouwen tot knusse wijken, biedt Almere een gevarieerd landschap. Het uitgebreide netwerk van fietspaden en groene zones benadrukt de aandacht voor duurzaamheid en levenskwaliteit. Almere is niet alleen een plek om te wonen, maar ook een broedplaats voor creativiteit en vernieuwing, waar gemeenschapsgevoel en vooruitgang hand in hand gaan.</p></div>
+    </div>
+</div>
+    </body>
+    <footer> 
+        <div id="footer" class="col-12">
+            <p> Copyright Bradley Moos</p>
+        </div>
+    </footer>
+</html>
